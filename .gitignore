@@ -10,9 +10,8 @@ backend/venv/
 venv/
 .env
 
-# ChromaDB data (auto-generated on deploy)
-backend/chroma_db/
-chroma_db/
+# ChromaDB data — committed intentionally for Railway deployment
+# backend/chroma_db/
 
 # Logs
 *.log

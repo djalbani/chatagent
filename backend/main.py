@@ -72,23 +72,6 @@ async def lifespan(app: FastAPI):
     rag = RAGSystem()
     gc  = AsyncGroq(api_key=GROQ_API_KEY)
 
-    # Auto-ingest docs if knowledge base is empty (important for Railway deploys)
-    if rag.count() == 0:
-        docs_dir = Path(__file__).parent.parent / "docs"
-        if docs_dir.exists():
-            print("[INFO] Knowledge base empty — auto-ingesting docs/ ...")
-            total = 0
-            for doc_file in sorted(docs_dir.glob("*.*")):
-                if doc_file.suffix.lower() in {".txt", ".pdf", ".docx", ".md"}:
-                    try:
-                        chunks = process_file(doc_file.read_bytes(), doc_file.name)
-                        rag.add_chunks(chunks)
-                        total += len(chunks)
-                        print(f"[INFO] Ingested {doc_file.name} ({len(chunks)} chunks)")
-                    except Exception as e:
-                        print(f"[WARN] Skipped {doc_file.name}: {e}")
-            print(f"[OK] Auto-ingested {total} chunks total")
-
     print(f"[OK] {BOT_NAME} ready  |  model={MODEL}  |  chunks={rag.count()}")
     yield
 
