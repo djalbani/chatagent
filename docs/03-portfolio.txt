@@ -1,0 +1,64 @@
+DANISH JALBANI — PORTFOLIO & PAST WORK
+========================================
+
+Danish has worked with clients across multiple industries globally. Below are examples
+of completed projects.
+
+Completed Projects
+-------------------
+
+1. IQRA UNIVERSITY
+   Type: Custom WordPress website with Elementor Pro
+   Industry: Education / Higher Education
+   Description: Full university website with custom design built using WordPress and
+   Elementor Pro. Includes course listings, faculty pages, and student resources.
+
+2. LEARN ACADEMY
+   Type: Figma to WordPress conversion
+   Industry: Education / Online Learning
+   Description: Converted a professionally designed Figma file into a fully functional
+   WordPress website for an online learning academy.
+
+3. CHINGLISH WINEBAR
+   Type: Custom WordPress design
+   Industry: Hospitality / Food & Beverage
+   Description: Custom-designed WordPress website for a winebar, reflecting the brand's
+   unique identity with a visually strong design.
+
+4. TEAM ECAP
+   Type: Figma to WordPress conversion
+   Industry: Non-profit / Community
+   Description: Converted a Figma design into a clean, functional WordPress website
+   for a community-focused organization.
+
+5. TAALEEM
+   Type: Elementor-based design
+   Industry: Education
+   Description: Professional education website built using Elementor on WordPress.
+
+6. PEARL STONE UAE
+   Type: Custom WordPress website
+   Industry: Real Estate
+   Description: Real estate website for a UAE-based property company, including
+   property listings and client inquiry features.
+
+Industries Served
+------------------
+- Education (universities, schools, academies)
+- Real Estate
+- Hospitality & Food and Beverage
+- E-commerce & Retail
+- Non-profit & Community Organizations
+- Corporate & Business
+
+Geographic Reach
+-----------------
+Projects completed for clients in:
+- Pakistan
+- United Arab Emirates (UAE)
+- United States of America (USA)
+- United Kingdom (UK)
+- Australia
+- And other countries globally
+
+[NOTE FOR DANISH: Add more recent projects, client names, results/outcomes, or testimonials here to make the bot more helpful]

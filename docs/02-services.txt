@@ -1,0 +1,68 @@
+DANISH JALBANI — SERVICES
+==========================
+
+Core Services
+--------------
+
+1. CUSTOM WORDPRESS WEBSITE DESIGN & DEVELOPMENT
+   Danish builds fully custom WordPress websites from scratch. This includes custom themes,
+   Elementor Pro page building, responsive design for all devices, SEO-ready structure,
+   speed optimization, and security setup. No cookie-cutter templates — every site is
+   built specifically for the client's brand and goals.
+
+2. E-COMMERCE DEVELOPMENT
+   Full online store setup using WooCommerce (WordPress) or Shopify. Includes product
+   setup, payment gateway integration (PayPal, Stripe, Authorize.net), shipping integration
+   (USPS, UPS), and a clean customer-facing shopping experience.
+
+3. FIGMA TO WORDPRESS / PSD TO HTML CONVERSION
+   Have a design ready? Danish can convert any Figma or Adobe XD design, or PSD mockup,
+   into a fully functional, pixel-perfect WordPress website.
+
+4. WEBFLOW DEVELOPMENT
+   Modern no-code/low-code website development using Webflow for clients who prefer
+   a more modern, CMS-driven approach.
+
+5. WEBSITE REDESIGN
+   Existing website looking outdated? Danish redesigns and modernizes websites while
+   preserving SEO rankings and improving conversion rates.
+
+6. ONLINE BUSINESS CONSULTING
+   For entrepreneurs and business owners who need strategy — not just a website.
+   Danish advises on digital presence, online business setup, monetization strategies,
+   and growth planning.
+
+7. ENTREPRENEURIAL MENTORSHIP
+   One-on-one mentorship for people who want to start or grow an online business or
+   freelance career. Danish shares practical knowledge from his 15+ years of experience.
+
+Technical Skills & Tools Used
+-------------------------------
+Platforms: WordPress, Shopify, Webflow, WooCommerce
+Languages: PHP, MySQL, HTML, CSS, JavaScript
+Design Tools: Figma, Adobe Photoshop, Adobe XD, Premiere Pro
+Marketing: Google Analytics, Google Tag Manager, HubSpot, Mailchimp
+Payments: PayPal, Stripe, Authorize.net
+Shipping: USPS, UPS
+Other: AI tools, Email marketing
+
+What's Included in Every Website Project
+------------------------------------------
+- Custom responsive design (works on mobile, tablet, desktop)
+- SEO-ready structure and meta setup
+- Speed optimization
+- Basic security hardening
+- Contact form integration
+- Social media links integration
+- 1 round of revisions
+- Handover with training on how to manage your website
+
+Pricing
+--------
+Danish offers custom pricing based on project scope and requirements. There are no fixed
+packages — every project is quoted individually after understanding the client's needs.
+
+To get a quote, clients should reach out via the contact form at danishjalbani.com or
+through any social media platform.
+
+[NOTE FOR DANISH: Add your starting prices or price ranges here if you want the bot to share them, e.g. "WordPress websites start from $X"]

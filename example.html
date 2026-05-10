@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acme Corp — Support Chat Demo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f9fafb;
+      color: #111827;
+      min-height: 100vh;
+    }
+    header {
+      background: #fff;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo {
+      width: 36px;
+      height: 36px;
+      background: #6366f1;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 18px;
+    }
+    header h1 { font-size: 20px; font-weight: 600; }
+    nav { margin-left: auto; display: flex; gap: 24px; }
+    nav a { color: #6b7280; text-decoration: none; font-size: 14px; }
+    nav a:hover { color: #111827; }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+    .hero { text-align: center; margin-bottom: 64px; }
+    .hero h2 { font-size: 40px; font-weight: 700; margin-bottom: 16px; line-height: 1.2; }
+    .hero p { font-size: 18px; color: #6b7280; max-width: 520px; margin: 0 auto 32px; }
+    .cta {
+      display: inline-block;
+      padding: 12px 28px;
+      background: #6366f1;
+      color: #fff;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+    }
+    .cta:hover { background: #4f46e5; }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      padding: 24px;
+    }
+    .card-icon { font-size: 28px; margin-bottom: 12px; }
+    .card h3 { font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+    .card p { font-size: 14px; color: #6b7280; line-height: 1.6; }
+
+    .embed-demo {
+      background: #1e293b;
+      border-radius: 14px;
+      padding: 24px;
+      margin-top: 48px;
+    }
+    .embed-demo h3 { color: #f1f5f9; font-size: 15px; margin-bottom: 16px; }
+    pre {
+      color: #94a3b8;
+      font-size: 13px;
+      line-height: 1.7;
+      overflow-x: auto;
+      white-space: pre-wrap;
+    }
+    code .kw { color: #7dd3fc; }
+    code .str { color: #86efac; }
+    code .key { color: #c4b5fd; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">A</div>
+  <h1>Acme Corp</h1>
+  <nav>
+    <a href="#">Products</a>
+    <a href="#">Pricing</a>
+    <a href="#">Docs</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h2>Everything your team needs to ship faster</h2>
+    <p>Acme Corp helps modern teams build better products with less overhead. Trusted by 10,000+ companies worldwide.</p>
+    <a class="cta" href="#">Get started free</a>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <div class="card-icon">⚡</div>
+      <h3>Blazing Fast</h3>
+      <p>Deploy in seconds with our global edge network. P99 latency under 50ms guaranteed.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🔒</div>
+      <h3>Enterprise Security</h3>
+      <p>SOC 2 Type II certified. Data encrypted at rest and in transit with AES-256.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">📈</div>
+      <h3>Built to Scale</h3>
+      <p>From startup to IPO — our infrastructure grows with you, no migrations needed.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🤝</div>
+      <h3>24 / 7 Support</h3>
+      <p>Dedicated success team available around the clock. Average first response under 2 minutes.</p>
+    </div>
+  </section>
+
+  <div class="embed-demo">
+    <h3>💬 Embed the support widget on your site</h3>
+    <pre><code><span class="kw">&lt;script&gt;</span>
+  <span class="key">window</span>.SupportChatConfig = {
+    <span class="key">apiUrl</span>:       <span class="str">"https://your-backend.example.com"</span>,
+    <span class="key">botName</span>:      <span class="str">"Acme Support"</span>,
+    <span class="key">primaryColor</span>: <span class="str">"#6366f1"</span>,
+    <span class="key">greeting</span>:     <span class="str">"Hi! How can I help you today?"</span>,
+    <span class="key">position</span>:     <span class="str">"right"</span>,
+  };
+<span class="kw">&lt;/script&gt;</span>
+<span class="kw">&lt;script</span> <span class="key">src</span>=<span class="str">"chat-widget.js"</span> <span class="key">defer</span><span class="kw">&gt;&lt;/script&gt;</span></code></pre>
+  </div>
+</main>
+
+<!--
+  ─────────────────────────────────────────────
+  SUPPORT CHAT WIDGET — paste these two blocks
+  on any page you want the chat bubble to appear
+  ─────────────────────────────────────────────
+-->
+<script>
+  window.SupportChatConfig = {
+    apiUrl:       window.location.origin,   // auto-uses whatever server served this page
+    botName:      "Danish's Assistant",
+    primaryColor: "#6366f1",
+    greeting:     "Hi! I'm Danish's assistant. Ask me anything about our web development services.",
+    position:     "right",
+  };
+</script>
+<script src="widget/chat-widget.js" defer></script>
+
+</body>
+</html>
